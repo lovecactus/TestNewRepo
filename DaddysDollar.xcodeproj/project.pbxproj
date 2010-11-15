@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DaddysDollarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DaddysDollarAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* DaddysDollarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DaddysDollarViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* DaddysDollarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DaddysDollarViewController.m */; };
+		5E7363CB1286B9E1005D7879 /* GiveMelonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7363CA1286B9E1005D7879 /* GiveMelonVC.m */; };
+		5E73650A1286CC86005D7879 /* GiveItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7365091286CC86005D7879 /* GiveItemVC.m */; };
+		5E7366051286DB6A005D7879 /* SetupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7366041286DB6A005D7879 /* SetupVC.m */; };
+		5E74C81C1288420F00C21EAB /* ParentsItemsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E74C81B1288420F00C21EAB /* ParentsItemsVC.m */; };
+		5E75594112855EA900878D6C /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E75594012855EA900878D6C /* LoginVC.m */; };
+		5E7559A612856A2100878D6C /* ParentsMelonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7559A512856A2100878D6C /* ParentsMelonVC.m */; };
+		5E77910E128F8BEB00821717 /* AddItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E77910D128F8BEB00821717 /* AddItemVC.m */; };
+		5E7791D9128FA67A00821717 /* ChildrenMelonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7791D8128FA67A00821717 /* ChildrenMelonVC.m */; };
+		5E7792261290EC7B00821717 /* ChildrenItemsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7792251290EC7B00821717 /* ChildrenItemsVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DaddysDollarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaddysDollarAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DaddysDollarAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaddysDollarAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DaddysDollar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaddysDollar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DaddysDollarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaddysDollarViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* DaddysDollarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaddysDollarViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DaddysDollarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaddysDollarViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DaddysDollar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaddysDollar_Prefix.pch; sourceTree = "<group>"; };
+		5E7363C91286B9E1005D7879 /* GiveMelonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiveMelonVC.h; sourceTree = "<group>"; };
+		5E7363CA1286B9E1005D7879 /* GiveMelonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiveMelonVC.m; sourceTree = "<group>"; };
+		5E7365081286CC86005D7879 /* GiveItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiveItemVC.h; sourceTree = "<group>"; };
+		5E7365091286CC86005D7879 /* GiveItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiveItemVC.m; sourceTree = "<group>"; };
+		5E7366031286DB6A005D7879 /* SetupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupVC.h; sourceTree = "<group>"; };
+		5E7366041286DB6A005D7879 /* SetupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupVC.m; sourceTree = "<group>"; };
+		5E74C81A1288420F00C21EAB /* ParentsItemsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentsItemsVC.h; sourceTree = "<group>"; };
+		5E74C81B1288420F00C21EAB /* ParentsItemsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentsItemsVC.m; sourceTree = "<group>"; };
+		5E75593F12855EA900878D6C /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		5E75594012855EA900878D6C /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		5E7559A412856A2100878D6C /* ParentsMelonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentsMelonVC.h; sourceTree = "<group>"; };
+		5E7559A512856A2100878D6C /* ParentsMelonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentsMelonVC.m; sourceTree = "<group>"; };
+		5E7559C112856BB200878D6C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5E755A9B12857B8300878D6C /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		5E77910C128F8BEB00821717 /* AddItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemVC.h; sourceTree = "<group>"; };
+		5E77910D128F8BEB00821717 /* AddItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemVC.m; sourceTree = "<group>"; };
+		5E7791D7128FA67A00821717 /* ChildrenMelonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrenMelonVC.h; sourceTree = "<group>"; };
+		5E7791D8128FA67A00821717 /* ChildrenMelonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrenMelonVC.m; sourceTree = "<group>"; };
+		5E7792241290EC7B00821717 /* ChildrenItemsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrenItemsVC.h; sourceTree = "<group>"; };
+		5E7792251290EC7B00821717 /* ChildrenItemsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrenItemsVC.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DaddysDollar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DaddysDollar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DaddysDollarAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DaddysDollarAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* DaddysDollarViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DaddysDollarViewController.m */,
+				5E75593F12855EA900878D6C /* LoginVC.h */,
+				5E75594012855EA900878D6C /* LoginVC.m */,
+				5E7559A412856A2100878D6C /* ParentsMelonVC.h */,
+				5E7559A512856A2100878D6C /* ParentsMelonVC.m */,
+				5E7363C91286B9E1005D7879 /* GiveMelonVC.h */,
+				5E7363CA1286B9E1005D7879 /* GiveMelonVC.m */,
+				5E7365081286CC86005D7879 /* GiveItemVC.h */,
+				5E7365091286CC86005D7879 /* GiveItemVC.m */,
+				5E7366031286DB6A005D7879 /* SetupVC.h */,
+				5E7366041286DB6A005D7879 /* SetupVC.m */,
+				5E74C81A1288420F00C21EAB /* ParentsItemsVC.h */,
+				5E74C81B1288420F00C21EAB /* ParentsItemsVC.m */,
+				5E77910C128F8BEB00821717 /* AddItemVC.h */,
+				5E77910D128F8BEB00821717 /* AddItemVC.m */,
+				5E7791D7128FA67A00821717 /* ChildrenMelonVC.h */,
+				5E7791D8128FA67A00821717 /* ChildrenMelonVC.m */,
+				5E7792241290EC7B00821717 /* ChildrenItemsVC.h */,
+				5E7792251290EC7B00821717 /* ChildrenItemsVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DaddysDollar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5E7559C112856BB200878D6C /* Constants.h */,
+				5E755A9B12857B8300878D6C /* Global.h */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DaddysDollar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* DaddysDollarViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DaddysDollar-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DaddysDollar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DaddysDollar" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaddysDollar;
+			productName = DaddysDollar;
+			productReference = 1D6058910D05DD3D006BFB54 /* DaddysDollar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DaddysDollar" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DaddysDollar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DaddysDollarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DaddysDollarAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DaddysDollarViewController.m in Sources */,
+				5E75594112855EA900878D6C /* LoginVC.m in Sources */,
+				5E7559A612856A2100878D6C /* ParentsMelonVC.m in Sources */,
+				5E7363CB1286B9E1005D7879 /* GiveMelonVC.m in Sources */,
+				5E73650A1286CC86005D7879 /* GiveItemVC.m in Sources */,
+				5E7366051286DB6A005D7879 /* SetupVC.m in Sources */,
+				5E74C81C1288420F00C21EAB /* ParentsItemsVC.m in Sources */,
+				5E77910E128F8BEB00821717 /* AddItemVC.m in Sources */,
+				5E7791D9128FA67A00821717 /* ChildrenMelonVC.m in Sources */,
+				5E7792261290EC7B00821717 /* ChildrenItemsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DaddysDollar_Prefix.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "DaddysDollar-Info.plist";
+				PRODUCT_NAME = DaddysDollar;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DaddysDollar_Prefix.pch;
+				INFOPLIST_FILE = "DaddysDollar-Info.plist";
+				PRODUCT_NAME = DaddysDollar;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DaddysDollar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DaddysDollar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
